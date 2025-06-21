@@ -20,3 +20,9 @@ build-backend = "setuptools.build_meta"
 
 [project.urls]
 homepage = "https://github.com/finance-jimmy/pprint_stat"
+
+[[tool.uv.index]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+publish-url = "https://test.pypi.org/legacy/"
+explicit = true
